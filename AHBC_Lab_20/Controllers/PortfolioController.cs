@@ -6,16 +6,11 @@ using System.Web.Mvc;
 
 namespace AHBC_Lab_20.Controllers
 {
-    public class HomeController : Controller
+    public class PortfolioController : Controller
     {
+        // GET: Portfolio
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-
             return View();
         }
     }

@@ -1,7 +1,23 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "Sebastian Wurst";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<h2>@ViewBag.Title</h2>
+@{ 
+    ViewBag.Bio = "Bio:";
+    ViewBag.Contact = "Contact:";
+}
 
-<p>Use this area to provide additional information.</p>
+
+<p>
+    <h3>@ViewBag.Bio</h3>
+    <div>
+        31 year old, that is working on starting a new career as a Software Developer. Born in Lima, Peru and raised for most of his life in Florida. Recently moved to Detroit, Michigan in 2015 to start a Business Development job with Quicken Loans.
+    </div>
+    <h3>@ViewBag.Contact</h3>
+    <div>
+        <ul class="media-list">
+            <li class="media-list"><i class="glyphicon-phone"></i>: 954-249-3074 </li>
+            <li class="media-list"><i class="glyphicon-envelope"></i>: swurst6@gmail.com</li>
+        </ul>
+    </div>
+</p>
